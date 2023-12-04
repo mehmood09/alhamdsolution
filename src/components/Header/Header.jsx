@@ -25,6 +25,10 @@ const navLinks = [
         path:'/register',
         display:'Register'
     },
+    {
+        path:'/notes',
+        display:'Student Notes'
+    },
 ]
 const Header = () => {
     const headerRef = useRef(null)
@@ -56,7 +60,7 @@ const toggleMenu = () => menuRef.current.classList.toggle('show__menu')
                   className="text-[12px] leading-[46px] text-headingColor font-[800]
                             md:text-[40px] md:leading-[70px] "
                 >
-                  Alhamd Solution
+                  MEHMOOD QADIR
                 </h1>
         </div>
          {/*========= menu ============*/}

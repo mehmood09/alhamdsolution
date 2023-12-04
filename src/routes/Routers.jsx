@@ -5,6 +5,7 @@ import Services from "../pages/Services";
 import Contact from "../pages/Contact";
 import Login from "../pages/Login";
 import Signup from "../pages/Signup";
+import Notes from "../pages/NotesList";
 import Doctors from "../pages/Doctors/Doctors";
 import DoctorDetails from "../pages/Doctors/DoctorDetails";
 import {Routes, Route} from 'react-router-dom'
@@ -20,6 +21,7 @@ const Routers = () => {
         <Route path="/register" element = {<Signup/>} />
         <Route path="/contact" element = {<Contact/>} />
         <Route path="/services" element = {<Services/>} />        
+        <Route path="/notes" element = {<Notes/>} />        
       </Routes> 
     )
    
